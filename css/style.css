@@ -675,3 +675,32 @@ html{
 .copyright a:hover {
     color: var(--bs-primary);
 }
+
+/*** whats app ***/
+#whatsapp-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out all;
+}
+
+#whatsapp-button img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#whatsapp-button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  #whatsapp-button {
+    width: 50px;
+    height: 50px;
+  }
+}
